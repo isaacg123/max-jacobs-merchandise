@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Jacobs Merchandise</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e91e63;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .social, .tiktok, .merch {
+            margin: 20px 0;
+        }
+        h2 {
+            border-bottom: 2px solid #e91e63;
+            padding-bottom: 10px;
+            color: #e91e63;
+        }
+        .social a {
+            margin-right: 20px;
+            font-size: 1.5em;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .tiktok-embed {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+        .merch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .merch-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .merch-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .merch-item h3 {
+            margin: 10px 0;
+            color: #e91e63;
+        }
+        .merch-item p {
+            color: #ccc;
+        }
+        .merch-item button {
+            background-color: #e91e63;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .merch-item button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Max Jacobs Merchandise</h1>
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Max Jacobs, and welcome to my official merchandise store. Here you can find all the cool stuff about me and get your hands on some exclusive merch. Stay sexy and stay awesome!</p>
+    </section>
+    <section class="social">
+        <h2>Follow Me</h2>
+        <a href="https://instagram.com/maxjacobs41" target="_blank">Instagram</a>
+        <a href="https://tiktok.com/@max.jacobs2" target="_blank">TikTok</a>
+    </section>
+    <section class="tiktok">
+        <h2>Latest TikTok Videos</h2>
+        <div class="tiktok-embed">
+            <!-- Example TikTok Embed -->
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yourusername/video/1234567890" data-video-id="1234567890" style="max-width: 605px;min-width: 325px;">
+                <section> 
+                    <a target="_blank" title="@yourusername" href="https://www.tiktok.com/@yourusername?refer=embed">@yourusername</a> 
+                    <p>Check out my latest video!</p> 
+                    <a target="_blank" title="original sound - yourusername" href="https://www.tiktok.com/music/original-sound-1234567890?refer=embed">original sound - yourusername</a> 
+                </section> 
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+    </section>
+    <section class="merch">
+        <h2>Merchandise</h2>
+        <div class="merch-grid">
+            <div class="merch-item">
+                <img src="https://via.placeholder.com/200" alt="Merch Item 1">
+                <h3>Merch Item 1</h3>
+                <p>Description of merch item 1.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="merch-item">
+                <img src="https://via.placeholder.com/200" alt="Merch Item 2">
+                <h3>Merch Item 2</h3>
+                <p>Description of merch item 2.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="merch-item">
+                <img src="https://via.placeholder.com/200" alt="Merch Item 3">
+                <h3>Merch Item 3</h3>
+                <p>Description of merch item 3.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
